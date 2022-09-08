@@ -3,4 +3,28 @@
   box-sizing: border-box;
 }
 
-.container
+.container{
+  text-align: center;
+  padding: 100px 0;
+}
+
+.container, .contain{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card{
+  margin: 0 10px 40px 10px;
+  width: calc(100% / 3 - 20px);
+  height: 120px;
+  background-color: black;
+  border: 1px solid whitesmoke;
+  float: left;
+}
+
+h1{
+  font-family: 'Fredoka One', cursive;
+  padding-bottom: 30px;
+  color: crimson;
+}
+
