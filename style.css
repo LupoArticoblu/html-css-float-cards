@@ -18,13 +18,40 @@
   width: calc(100% / 3 - 20px);
   height: 120px;
   background-color: black;
-  border: 1px solid whitesmoke;
   float: left;
+  box-shadow:  2px 2px 8px 4px rgba(196, 195, 191, 0.377);
 }
 
 h1{
   font-family: 'Fredoka One', cursive;
   padding-bottom: 30px;
   color: crimson;
+}
+
+h3{
+  font-family: 'Fredoka One', cursive;
+  color: whitesmoke;
+  padding-left: 120px;
+  margin: 10px;
+}
+
+img{
+  height: 120px;
+  float: left;
+}
+
+span{
+  color: whitesmoke;
+  margin: 10px;
+  display: inline-block;
+}
+
+a{
+  color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
 }
 
